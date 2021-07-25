@@ -5,5 +5,5 @@ items_2 = sample(range(0, 20), 6)
 print(items_1)
 print(items_2)
 
-x = list(set(items_1) & set(items_2))
+x = set(items_1) & set(items_2)
 print(x)
